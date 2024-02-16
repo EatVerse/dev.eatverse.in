@@ -27,15 +27,27 @@ p { font-family: 'DM Sans', sans-serif; font-weight: 400; font-size: 18px; line-
 
 ul { padding: 0; margin: 0; list-style: none; }
 
-.fix { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); z-index: 1; }
+.fix { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); z-index: 1; width: 200px; }
 .fix.btn { font-size: 25px; border-radius: 20px; background: linear-gradient(180deg, #E6ECF1 0%, #E6ECF1 100%); box-shadow: 5px 5px 10px 0px #B1B7BD, -5px -5px 10px 0px #FFF, 5px 5px 10px 0px #B1B7BD, -5px -5px 10px 0px #FFF; }
+.fix.btn:hover { color: var(--purple); }
 
-.btn { padding: 0 20px 0 15px; border-radius: 20px; font-size: 25px; font-family: 'Bangers', system-ui; }
-.btn:hover { color: var(--red); }
+.btn { padding: 0 20px 0 15px; border-radius: 20px; font-size: 25px; font-family: 'Bangers', system-ui; cursor: pointer; }
+.btn:hover { color: var(--red); animation: shadow-pulse 1s infinite; }
+.btn:focus { outline: none; }
 .btn.white-text:hover { color: var(--white); }
 .btn img { margin-right: 5px; }
 .btn-white-box-shadow { background: linear-gradient(180deg, #E6ECF1 0%, #E6ECF1 100%); box-shadow: 10px 10px 20px 0px #B1B7BD, -10px -10px 20px 0px #FFF; }
 .btn-purple-box-shadow { box-shadow: 5px 5px 10px 0px rgba(116, 70, 172, 0.20), -5px -5px 10px 0px #FFF, 5px 5px 10px 0px rgba(116, 70, 172, 0.20), -5px -5px 10px 0px #FFF; }
+
+@keyframes shadow-pulse
+{
+     0% {
+          box-shadow: 0 0 0 0px rgba(117, 0, 203, 0.2);
+     }
+     100% {
+          box-shadow: 0 0 0 35px rgba(117, 0, 203, 0);
+     }
+}
 
 .bangers-font { font-family: 'Bangers', system-ui; }
 .black-text { color: var(--black); }

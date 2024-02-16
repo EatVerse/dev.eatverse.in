@@ -3,7 +3,21 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    
+    .explore-box { padding: 80px 200px; }
+    .through li { width: 47%; }
+    .through li .through-box { margin: 30px 0; }
+    .creators-box { padding: 80px 0; }
+    .creators-header { padding: 0 100px; }
+    .eatverse-team { margin: 250px 0 120px; }
+    .eatverse-success { margin: 0 0 120px; padding: 0 20px; }
+    .eatverse-success li { width: 31%; }
+    .eatverse-success li .success-box { padding: 40px 15px; }
+    .eatverse-customer ul li { width: 200px; height: 200px; padding: 20px; }
+	.eatverse-customer ul li img { width: 160px; height: 160px; }
+	.editorial-recognition h2 { margin-bottom: 50px; }
+	.editorial-recognition ul li { width: 200px; height: 200px; padding: 20px; }
+	.editorial-recognition ul li span { width: 160px; height: 160px; }
+	.editorial-recognition ul li img { width: 160px; height: 160px; }
 }
 
 @media only screen and (max-width: 768px) {
@@ -59,15 +73,15 @@
 	.video-box .play-btn span { width: 40px; height: 40px; padding: 7px; background-image: linear-gradient(180deg, #E6ECF1 0%, #E6ECF1 100%); filter: drop-shadow(2px 2px 4px #B1B7BD) drop-shadow(-2px -2px 4px #FFF); }
 	.video-box .play-btn span img { width: 26px; height: 26px; }
 
-	.explore-box { border-radius: 100px; padding: 50px 45px; margin: 70px 0 70px; text-align: center; background-image: linear-gradient(180deg, #E6ECF1 0%, #E6ECF1 100%); filter: drop-shadow(5px 5px 10px #B1B7BD) drop-shadow(-5px -5px 10px #FFF); }
+	.explore-box { border-radius: 100px; padding: 50px 25px; margin: 70px 0 70px; text-align: center; background-image: linear-gradient(180deg, #E6ECF1 0%, #E6ECF1 100%); filter: drop-shadow(5px 5px 10px #B1B7BD) drop-shadow(-5px -5px 10px #FFF); }
 	.explore-box h2 { padding: 0 30px; }
 	.explore-box p { margin-bottom: 30px; }
 
 	.flavours-through { margin: 70px 0; }
-	.through-header h2 { margin-bottom: 10px; padding: 0 90px; }
-	.through-header p { padding: 0 60px; }
+	.through-header h2 { margin-bottom: 10px; padding: 0 70px; }
+	.through-header p { padding: 0 40px; }
 
-	.creators:before { width: 6px; height: 91%; top: 40px; background-image: linear-gradient(180deg, #FFF 0%, #F05C5C 56.67%, rgba(255, 255, 255, 0.50) 100%); box-shadow: 1px 1px 2px 0px #B1B7BD, -1px -1px 2px 0px #FFF; }
+	.creators:before { width: 6px; height: 90%; top: 40px; background-image: linear-gradient(180deg, #FFF 0%, #F05C5C 56.67%, rgba(255, 255, 255, 0.50) 100%); box-shadow: 1px 1px 2px 0px #B1B7BD, -1px -1px 2px 0px #FFF; }
 	.creators li { margin-bottom: 50px; }
 	.creators li:nth-child(odd) { padding-right: 20px; }
 	.creators li:nth-child(even) { padding-left: 20px; }
@@ -90,9 +104,9 @@
 	.through li .icon img { width: 24px; height: 24px; }
 
 	.creators-verse { margin: 0; }
-	.creators-box { padding: 50px 20px; border-radius: 70px; background-image: linear-gradient(180deg, rgba(186, 128, 229, 0.10) 0%, rgba(255, 255, 255, 0.50) 100%); box-shadow: 10px 10px 20px 0px #B1B7BD, -10px -10px 20px 0px #FFF; }
+	.creators-box { padding: 50px 15px; border-radius: 70px; background-image: linear-gradient(180deg, rgba(186, 128, 229, 0.10) 0%, rgba(255, 255, 255, 0.50) 100%); box-shadow: 10px 10px 20px 0px #B1B7BD, -10px -10px 20px 0px #FFF; }
 	.creators-header { padding: 0; }
-	.creators-header h2 { margin-bottom: 20px; padding: 0 120px; }
+	.creators-header h2 { margin-bottom: 20px; padding: 0 100px; }
 	.creators-header p { margin-bottom: 30px; }
 
 	.eatverse-team { margin: 100px 0 0; }
@@ -111,13 +125,14 @@
 	.team2 a { bottom: -15px; left: -15px; }
 	.team3 a { bottom: -15px; right: -15px; }
 
+	.eatverse-success { margin: 100px 0; }
 	.eatverse-success li { width: 100%; padding: 10px; margin: 15px 0; border-radius: 40px; background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(186, 128, 229, 0.50) 100%); box-shadow: 5px 5px 10px 0px #B1B7BD, -5px -5px 10px 0px #FFF; }
-	.eatverse-success li .success-box { padding: 35px 40px; text-align: center; border-radius: 30px; background-image: linear-gradient(180deg, #E6ECF1 0%, #E6ECF1 100%); box-shadow: 2px 2px 4px 0px #B1B7BD, -2px -2px 4px 0px #FFF; }
+	.eatverse-success li .success-box { padding: 35px 20px; text-align: center; border-radius: 30px; background-image: linear-gradient(180deg, #E6ECF1 0%, #E6ECF1 100%); box-shadow: 2px 2px 4px 0px #B1B7BD, -2px -2px 4px 0px #FFF; }
 	.eatverse-success li .success-box h1 { font-size: 50px; margin-bottom: 30px; }
-	.eatverse-success li .success-box h4 { font-size: 22px; padding: 0 60px; text-shadow: 0.5px 0.5px 1px #B1B7BD, -0.5px -0.5px 1px #FFF; }
+	.eatverse-success li .success-box h4 { font-size: 22px; padding: 0 40px; text-shadow: 0.5px 0.5px 1px #B1B7BD, -0.5px -0.5px 1px #FFF; }
 
 	.eatverse-customer { margin-bottom: 50px; }
-	.eatverse-customer ul li { width: 80px; padding: 10px; margin: 0 10px; border-radius: 20px; background-image: linear-gradient(180deg, #E6ECF1 0%, #E6ECF1 100%); box-shadow: 5px 5px 10px 0px #B1B7BD, -5px -5px 10px 0px #FFF; }
+	.eatverse-customer ul li { width: 80px; height: 80px; padding: 10px; margin: 0 10px; border-radius: 20px; background-image: linear-gradient(180deg, #E6ECF1 0%, #E6ECF1 100%); box-shadow: 5px 5px 10px 0px #B1B7BD, -5px -5px 10px 0px #FFF; }
 	.eatverse-customer ul li img { width: 60px; height: 60px; }
 
 	.editorial-recognition { margin: 100px 0; }
@@ -125,7 +140,7 @@
 	.editorial-recognition ul li span { width: 58px; height: 58px; box-shadow: 2px 2px 4px 0px #B1B7BD, -2px -2px 4px 0px #FFF; }
 	.editorial-recognition ul li img { width: 58px; height: 58px; }
 
-	footer p { text-align: center; }
+	footer p { text-align: center; font-size: 14px; }
 }
 
 @media only screen and (max-width: 400px) {
